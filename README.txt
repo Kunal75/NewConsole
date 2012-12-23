@@ -1,0 +1,1 @@
+This application is for getting started of Windows console application.
