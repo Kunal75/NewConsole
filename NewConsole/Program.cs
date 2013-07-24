@@ -7,10 +7,11 @@ namespace NewConsole
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("This is testing Tool");
-            Console.WriteLine("This line added after some time - Revision 1");
+            var friendList = new List<string> {"kunal", "Sonali", "Varun", "Aadesh"};
+            friendList.ForEach(Console.WriteLine);
+            Console.ReadKey(true);
         }
     }
 }
